@@ -1,0 +1,81 @@
+#map {
+    height: 300px;
+    width:300px;
+    float: right;
+    left: 213px;
+    border: solid rgba(41, 41, 41, 0.404) 8px;
+    z-index: 2;
+    margin-right: 150px; 
+    margin-top: 60px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(90, 141, 69, 0.76);   
+   
+} 
+.container {
+    background-color: dark rgb(165, 193, 230);
+  }
+.bg-dark {
+    background-color: rgb(211, 211, 211) !important;
+}
+.bg-light {
+    background-color: rgb(206, 201, 201) !important;
+}
+#weather {
+    height: 15%;
+    width: 8%;
+    position: relative;
+    left: 5px;
+    padding-left: 20px;
+    padding-right: 6px;
+    top: 280px;
+    z-index: 1;
+    border: solid grey 5px;
+    background-color: rgb(152, 211, 150)
+}
+.jumbotron {
+    z-index: initial;
+    height: 370px;
+    background-color: rgb(161, 102, 102);
+    border-bottom: solid  rgba(90, 141, 69, 0.76) 30px;
+    padding-bottom: 5px;
+    
+    
+    
+
+}
+#radar {
+    position: sticky;
+    left: 20px;
+    bottom: 0;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    margin: 80px;
+    /* background-color: rgba(92, 160, 92, 0.63); */
+}
+.navbar {
+    z-index: 1;
+    position: relative;
+    bottom: 90px;
+}
+.nav-item dropdown {
+    left: 5px;
+}
+.btn {
+    position: relative;
+    top: 260px;
+    left: 30px;
+    border: solid black 2px;
+}
+
+img {
+    position: sticky;
+    margin-left: 500px;
+    margin-top: 50px;
+}

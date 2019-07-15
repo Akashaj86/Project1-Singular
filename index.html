@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nice Bass</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="assets/lib/leaflet.css"> -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+</head>
+<body>
+  <img src="C:\Users\Ashlie\Desktop\bootcamp-homework\Project-1\assets\2019-07-10 (2).png" alt="Bass" height="110px">
+  <div class="container-weather">
+    <div id="weather">
+      <div id="description"></div>
+      <h1 id="temp"></h1>
+      <div id="location"></div>
+    </div>
+  </div>
+  <div class="container map">
+    <div id="map"></div>
+  </div>
+  <br>
+  <br>
+  <!-- <button type="button" class="btn btn-warning">Upload Photo</button> -->
+  <div class="jumbotron jumbotron-fluid m-0 bg-dark">
+    <div class="container">
+      <h1 class="display-4" >Nice Bass!</h1>
+      <h2 class="display-4"> Bass Fishing Tournament Catch Tracker</h2>
+      <p class="lead">Get real-time updates and win first place!</p>
+    </div>
+  </div>
+  <hr>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Top Three<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Current Catch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Temperature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cloud Coverage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accumulated Precipition</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <div id="radar" style="width: 856px; height: 856px; background-repeat: no-repeat"></div>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuRk6NNaEEnPYbqhunY4xCs96MvlNoPIw"
+    type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+</html>
